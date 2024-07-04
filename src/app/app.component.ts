@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { StoreModule } from '@ngrx/store';
 
 @Component({
   selector: 'app-root',
@@ -10,5 +9,6 @@ import { StoreModule } from '@ngrx/store';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'shell';
+  // the intentional issue
+  title = shell;
 }
